@@ -13,4 +13,5 @@ kit = PDFKit.new(html,
                  :margin_left=>'0in',
                  :margin_bottom=>'0in',
                  :dpi=>'300')
+kit.stylesheets << 'article/css/style.css'
 kit.to_file("article.pdf")
