@@ -1,0 +1,7 @@
+$dpi : 300;
+
+@function mmtopx($mm)
+{
+    $pixel : round(($mm * $dpi)/25.4);
+    @return $pixel;
+}
