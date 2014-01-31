@@ -1,4 +1,4 @@
 Sivu
 ====
 
-Sivu : Page Generator From HTML
+Sivu : The Page Generator
