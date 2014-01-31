@@ -62,3 +62,17 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 2, ../sass/_main.scss */
+body {
+  width: 794px;
+  height: 1123px;
+  font-size: 13px;
+}
+
+/* line 9, ../sass/_main.scss */
+article {
+  margin-right: 38px;
+  margin-left: 38px;
+  background-color: #E0E0E0;
+}

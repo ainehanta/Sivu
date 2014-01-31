@@ -1,7 +1,21 @@
-$dpi : 300;
+//$dpi : 300;
+$dpi : 96;
+$dtp-point : 0.3527;
 
-@function mmtopx($mm)
+@function _mmtopxraw($mm)
 {
     $pixel : round(($mm * $dpi)/25.4);
     @return $pixel;
+}
+
+@function mmtopx($mm)
+{
+    $pixel : _mmtopxraw($mm);
+    @return $pixel + px;
+}
+
+@function pttopx($pt)
+{
+    $pixel : _mmtopxraw($dtp-point * $pt);
+    @return $pixel + px;
 }

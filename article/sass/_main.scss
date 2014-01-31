@@ -1,0 +1,17 @@
+body
+{
+    width:  mmtopx(210);
+    height: mmtopx(297);
+    font-size: pttopx(10);
+}
+
+article
+{
+    margin:
+    {
+        right: mmtopx(10);
+        left:  mmtopx(10);
+    }
+
+    background-color:#E0E0E0;
+}
